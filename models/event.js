@@ -17,6 +17,10 @@ price: {
 date: {
     type: Date,
     required: true
+},
+creator: {
+    type: Schema.Types.ObjectId,
+    ref:'User'
 }
 });
 
