@@ -2,6 +2,13 @@
  * jamal.khan@brotecs.com
  * bTl123085284
  * https://cloud.mongodb.com/user?signedOut=true
+ * mutation{
+  createUser(userInput:{email:"kamal@khan.com",password:"123123"}){
+    email
+    password
+  }
+}
+
  */
 const express = require('express');
 const bodyParser = require('body-parser');
